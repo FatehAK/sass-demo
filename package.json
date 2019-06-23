@@ -1,0 +1,32 @@
+{
+  "name": "basic-starter-sass",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "clean": "rm dist/*.*",
+    "dev": "parcel public/index.html --port 3000",
+    "build": "parcel build public/index.html -d build --public-url ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap-reboot": "^4.3.1"
+  },
+  "devDependencies": {
+    "sass": "^1.21.0",
+    "parcel": "^1.12.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

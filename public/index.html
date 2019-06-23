@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SASS Demo</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <h3>SASS</h3>
+        </div>
+        <div class="container">
+            <div class="one">One</div>
+            <div class="two">Two</div>
+            <div class="three">Three</div>
+        </div>
+        <div class="nav">
+            <div class="nav__list">
+                <div class="nav__item">
+                    <a href="#" class="nav__link">Link 1</a>
+                </div>
+                <div class="nav__item">
+                    <a href="#" class="nav__link nav__link--active">Link 2</a>
+                </div>
+            </div>
+        </div>
+        <div class="head-wrap">
+            <h5>Learn</h5>
+            <h5>SASS</h5>
+        </div>
+        <div class="head-inter">Head</div>
+        <div class="content-mix">
+            <div class="content-mix-inner">
+                Content Block
+            </div>
+        </div>
+        <div class="error">
+            Normal error
+        </div>
+        <div class="error--serious">
+            Oh no! You've been hacked!
+        </div>
+        <!-- writing classname 'error' is avoided since 'error-serious' has inherited from error (@extend)
+        <div class="error error--serious">
+            Oh no! You've been hacked!
+        </div>
+         -->
+        <button class="confirm">Confirm</button>
+        <button class="cancel">Cancel</button>
+        <div class="fun-div">Function</div>
+        <p class="style-regular">Style Regular</p>
+        <p class="style-medium">Style Medium</p>
+        <p class="style-bold">Style Bold</p>
+        <div class="profile-pic"></div>
+    </div>
+    <script src="../src/index.js"></script>
+</body>
+
+</html>
